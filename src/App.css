@@ -356,6 +356,7 @@ h2 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+  background-color: var(--bg-shade);
 }
 
 .about--section--img>img {

@@ -2,19 +2,19 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/frontend.jpg",
+      "src": "./img/frontend.svg",
       "title": "Front-End",
       "description": "Developed responsive and user-friendly web interfaces using HTML, CSS, and JavaScript.Utilized React.js to build modular UI components and manage application state efficiently."
     },
     {
       "id": "2",
-      "src": "./img/backend.png",
+      "src": "./img/backend.svg",
       "title": "Back-End",
       "description": "Designed and developed RESTful APIs using Express.js to support frontend applications.Collaborated with frontend developers to integrate server-side logic with client-side applications.Optimized API performance by implementing caching and pagination techniques."
     },
     {
       "id": "3",
-      "src": "./img/mySql.png",
+      "src": "./img/database.svg",
       "title": "Database",
       "description": "Proficient in MySQL database administration, including installation, configuration, and maintenance.Managed and maintained MySQL databases to ensure optimal performance and reliability."
     }
