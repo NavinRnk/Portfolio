@@ -58,12 +58,13 @@ export default function ContactMe() {
         <form className="contact--form--container" ref={form} onSubmit={sendEmail}>
           <div className="container">
             <label htmlFor="first-name" className="contact--label">
-              <span className="text-md">First Name</span>
+              <span className="text-md">Name</span>
               <input
                 type="text"
                 className="contact--input text-md"
                 name="from_name"
                 id="first-name"
+                placeholder="Enter your name"
                 required
               />
             </label>
@@ -74,16 +75,18 @@ export default function ContactMe() {
                 className="contact--input text-md"
                 name="from_email"
                 id="email"
+                placeholder="Enter your email"
                 required
               />
             </label>
             <label htmlFor="phone-number" className="contact--label">
-              <span className="text-md">phone-number</span>
+              <span className="text-md">Mobile Number</span>
               <input
                 type="number"
                 className="contact--input text-md"
                 name="from_number"
                 id="phone-number"
+                placeholder="Enter your mobile number"
                 required
               />
             </label>

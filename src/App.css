@@ -731,8 +731,24 @@ input[type="checkbox"] {
   /* Show the text on hover */
 }
 
-.link-portfolio{
+.link-portfolio {
   text-decoration: none;
+}
+
+.my-skills-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.my-skills-sub-area {
+  width: 45%;
+}
+
+.progressBar-segment {
+  margin-bottom: 10px;
+  height: 30px;
 }
 
 /* Responsive Screens */
@@ -905,7 +921,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -22rem;
+    top: -25rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
