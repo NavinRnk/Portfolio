@@ -15,10 +15,10 @@ export default function AboutMe() {
             In the realm of Frontend development, I excel in utilizing tools like React.js, Redux, Redux Toolkit, Axios, SaSS, and CSS3 to bring designs to life with finesse and efficiency.
           </p>
           <p className="hero--section-description">
-            On the Backend front, I am proficient in Node.js and Express.js, adept at building robust server-side applications. My knowledge extends to database management with MySQL, ensuring optimal data handling and retrieval.
+            On the Backend, I am proficient in Node.js and Express.js, adept at building robust server-side applications. My knowledge extends to database management with MySQL, ensuring optimal data handling and retrieval.
           </p>
           <p className="hero--section-description">
-            Currently, I am honing my skills and gaining practical experience as a Junior Software Developer at KnowledgeQ Interactive Consultancy Pvt Ltd Coimbatore since 2023. In this role, I actively contribute to the development of innovative solutions while continuously expanding my expertise in various technologies.
+            Currently, I am honing my skills and gaining practical experience as a <b>Junior Software Developer</b> at <b>KnowledgeQ Interactive Consultancy Pvt Ltd Coimbatore</b> since 2023. In this role, I actively contribute to the development of innovative solutions while continuously expanding my expertise in various technologies.
           </p>
         </div>
 

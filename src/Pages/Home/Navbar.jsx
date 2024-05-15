@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import ContactModal from "../contact-modal";
+import ContactModal from "../alert-box";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -86,10 +86,10 @@ function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="AboutMe"
                 className="navbar--content"
               >
-                Projects
+                About Me
               </Link>
             </li>
             <li>
@@ -100,10 +100,10 @@ function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MyPortfolio"
                 className="navbar--content"
               >
-                About Me
+                Projects
               </Link>
             </li>
             <li>

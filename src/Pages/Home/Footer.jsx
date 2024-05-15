@@ -43,10 +43,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="AboutMe"
                 className="text-md"
               >
-                Projects
+                About Me
               </Link>
             </li>
             <li>
@@ -56,10 +56,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MyPortfolio"
                 className="text-md"
               >
-                About Me
+                Projects
               </Link>
             </li>
             <li>
@@ -185,9 +185,10 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <div>
+        <div className="footer-content-area">
           <p className="footer--content">Made with by NaveenKumar R </p>
           <p>+91 9384434781</p>
+          <p>www.naveenkumarrnk2701@gmail.com</p>
         </div>
         <div className="footer--social--icon">
           <ul>

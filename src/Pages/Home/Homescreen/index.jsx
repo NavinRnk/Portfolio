@@ -1,3 +1,5 @@
+import { useState } from "react";
+import AlertBox from "../../alert-box";
 import AboutMe from "../AboutMe";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
@@ -7,6 +9,7 @@ import MySkills from "../MySkills";
 import Testimonial from "../Testimonials";
 
 export default function Home() {
+
   return (
     <>
       <HeroSection />
@@ -16,6 +19,7 @@ export default function Home() {
       <Testimonial />
       <ContactMe />
       <Footer />
+
     </>
   );
 }
