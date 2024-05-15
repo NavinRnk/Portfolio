@@ -33,7 +33,7 @@ export default function HeroSection() {
         <button className="btn btn-primary" onClick={handleDownloadResume}>Download Resume</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/Navin.jpg" alt="Hero Section" />
+        <img src="./img/Navin.jpg" alt="Hero Section" draggable="false" />
       </div>
     </section>
   );
