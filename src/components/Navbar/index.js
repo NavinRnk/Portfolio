@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
@@ -14,7 +15,9 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>NaveenKumar R</Span>
+            {/* <DiCssdeck size="3rem" />  */}
+            <DataObjectIcon size="3rem" />
+            <Span>NaveenKumar R</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -50,7 +53,9 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href='#contact'>Contact Me</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href='#contact' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Contact Me</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>

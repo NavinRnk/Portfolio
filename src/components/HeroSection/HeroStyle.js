@@ -180,6 +180,10 @@ export const ResumeButton = styled.a`
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);

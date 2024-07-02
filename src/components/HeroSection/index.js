@@ -1,9 +1,10 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton } from './HeroStyle'
-import HeroImg from '../../images/HeroImage.jpg'
+import HeroImg from '../../images/HeroImage.png'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 const HeroSection = () => {
 
@@ -36,7 +37,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton onClick={handleDownloadResume} target='display'>Download Resume</ResumeButton>
+                        <ResumeButton onClick={handleDownloadResume} target='display'>Resume <CloudDownloadIcon /></ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
