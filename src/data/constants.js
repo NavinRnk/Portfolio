@@ -7,7 +7,7 @@ export const Bio = {
   ],
   description:
     "As a full-stack developer, I'm passionate about building seamless solutions that blend front-end elegance with back-end efficiency. With a user-centric approach and a drive for innovation, I thrive in dynamic environments, collaborating closely with teams to deliver impactful software solutions.",
-  // github: "https://github.com/rishavchanda",
+  github: "https://github.com/NavinRnk",
   // resume:
   //   "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/naveenkumar2701",
